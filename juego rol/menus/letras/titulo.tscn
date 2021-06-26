@@ -1,0 +1,105 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://menus/letras/medievalcharacter.png" type="Texture" id=1]
+
+[node name="titulo" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 1.5874
+margin_right = 1.5874
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="c2" type="Sprite" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 262.379, 236.624 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 229.586, 25.3251, 88.6427, 82.8109 )
+
+[node name="a" type="Sprite" parent="."]
+position = Vector2( 329.726, 231.573 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 6.81281, 27.6578, 88.6427, 85.1436 )
+
+[node name="r" type="Sprite" parent="."]
+position = Vector2( 403.809, 241.676 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 888.044, 143.523, 91.1451, 89.7847 )
+
+[node name="n" type="Sprite" parent="."]
+position = Vector2( 475.085, 238.308 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 450.618, 533.099, 89.6248, 82.2584 )
+
+[node name="e" type="Sprite" parent="."]
+position = Vector2( 541.31, 234.38 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 450.5, 414.4, 88.35, 76 )
+
+[node name="e3" type="Sprite" parent="."]
+position = Vector2( 694.939, 236.302 )
+scale = Vector2( 0.722569, 0.722569 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 450.5, 414.4, 88.35, 76 )
+
+[node name="d" type="Sprite" parent="."]
+position = Vector2( 642.21, 234.7 )
+scale = Vector2( 0.587117, 0.587117 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 342.65, 21.15, 86.45, 89.3 )
+
+[node name="p" type="Sprite" parent="."]
+position = Vector2( 268.07, 343.33 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 676.057, 143.437, 78.5752, 82.2584 )
+
+[node name="e5" type="Sprite" parent="."]
+position = Vector2( 336.814, 341.86 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 450.5, 414.4, 88.35, 76 )
+
+[node name="s" type="Sprite" parent="."]
+position = Vector2( 405.814, 343.86 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 13.7704, 262.907, 86.3388, 88.4973 )
+
+[node name="c" type="Sprite" parent="."]
+position = Vector2( 477.378, 343.238 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 229.586, 25.3251, 88.6427, 82.8109 )
+
+[node name="u" type="Sprite" parent="."]
+position = Vector2( 559.496, 343.238 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 232.905, 266.333, 85.9184, 85.9184 )
+
+[node name="e6" type="Sprite" parent="."]
+position = Vector2( 636.475, 344.107 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 450.5, 414.4, 88.35, 76 )
+
+[node name="z" type="Sprite" parent="."]
+position = Vector2( 705.397, 344.857 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 787.238, 655.565, 79.7784, 75.3463 )
+
+[node name="o" type="Sprite" parent="."]
+position = Vector2( 773.57, 345.606 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 562.526, 533.73, 82.9828, 74.8206 )
