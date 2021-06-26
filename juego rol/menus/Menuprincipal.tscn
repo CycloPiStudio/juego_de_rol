@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://menus/imagenes/portada1.jpg" type="Texture" id=1]
 [ext_resource path="res://menus/letras/titulo.tscn" type="PackedScene" id=2]
+[ext_resource path="res://menus/Menuprincipal.gd" type="Script" id=3]
 
 [node name="Menuprincipal" type="Control"]
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -31,11 +33,11 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextEditNOMBRE" type="TextEdit" parent="ColorRect5"]
-margin_left = 32.0818
-margin_top = 58.5959
-margin_right = 273.082
-margin_bottom = 92.5959
+[node name="TextEditNOMBRE" type="TextEdit" parent="."]
+margin_left = 35.0
+margin_top = 65.2973
+margin_right = 276.0
+margin_bottom = 99.2973
 __meta__ = {
 "_edit_use_anchors_": false
 }
