@@ -1,0 +1,148 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://menus/letras/titulo.tscn" type="PackedScene" id=1]
+[ext_resource path="res://menus/MenuPrincipal/Menuprincipal.gd" type="Script" id=2]
+[ext_resource path="res://menus/imagenes/portada1.jpg" type="Texture" id=3]
+
+[node name="Menuprincipal" type="Control"]
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect4" type="ColorRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_scale = Vector2( 25.6, 14.9682 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PortadaSprite" type="Sprite" parent="."]
+position = Vector2( 679.669, 400.917 )
+scale = Vector2( 0.400751, 0.400751 )
+texture = ExtResource( 3 )
+flip_h = true
+
+[node name="ColorRect5" type="ColorRect" parent="."]
+margin_left = 2.9182
+margin_top = 6.70138
+margin_right = 309.918
+margin_bottom = 321.701
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextEditNOMBRE" type="TextEdit" parent="."]
+margin_left = 35.0
+margin_top = 65.2973
+margin_right = 276.0
+margin_bottom = 99.2973
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="IPSERVER" type="TextEdit" parent="."]
+margin_left = 34.7401
+margin_top = 149.181
+margin_right = 277.74
+margin_bottom = 189.181
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PORT" type="TextEdit" parent="."]
+margin_left = 37.0
+margin_top = 246.0
+margin_right = 282.0
+margin_bottom = 285.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 35.0
+margin_top = 28.0
+margin_right = 275.0
+margin_bottom = 58.0
+color = Color( 0.639216, 0.176471, 0.176471, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelNOMBRE" type="Label" parent="ColorRect"]
+margin_left = 6.0
+margin_top = 5.50169
+margin_right = 229.0
+margin_bottom = 21.5017
+text = "NOMBRE JUGADOR"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+margin_left = 36.0
+margin_top = 113.0
+margin_right = 277.0
+margin_bottom = 143.0
+color = Color( 0.639216, 0.176471, 0.176471, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelIPSERVER" type="Label" parent="ColorRect2"]
+margin_left = 8.0
+margin_top = 7.0
+margin_right = 233.0
+margin_bottom = 23.0
+text = "IP SERVER (Solo para clientes)"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+margin_left = 38.0
+margin_top = 209.0
+margin_right = 280.0
+margin_bottom = 239.0
+color = Color( 0.639216, 0.176471, 0.176471, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelPORT" type="Label" parent="ColorRect3"]
+margin_left = 7.0
+margin_top = 8.0
+margin_right = 232.0
+margin_bottom = 23.0
+text = "SERVER PORT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonCliente" type="Button" parent="."]
+margin_left = 34.0
+margin_top = 334.0
+margin_right = 289.0
+margin_bottom = 426.0
+text = "CLIENTE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonServidor" type="Button" parent="."]
+margin_left = 33.0
+margin_top = 455.0
+margin_right = 295.0
+margin_bottom = 547.0
+text = "SERVIDOR"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="titulo" parent="." instance=ExtResource( 1 )]
+margin_left = 119.814
+margin_top = -153.019
+margin_right = 119.814
+margin_bottom = -153.019
+rect_scale = Vector2( 0.901725, 0.901725 )
