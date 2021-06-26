@@ -4,7 +4,7 @@ Documento de diseño de juego
 
 Diagrama
 
-<a href="url"><img src="https://github.com/CycloPiStudio/Web-2021/blob/main/desarrollo/carne/Diagrama-Carne.jpg" align="left" height ="1298" width ="966" ><a>
+<a href="url"><img src="https://github.com/CycloPiStudio/Web-2021/blob/main/desarrollo/carne/Diagrama-Carne.jpg"><a>
   
 Descripción del juego:
 
