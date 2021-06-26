@@ -1,8 +1,9 @@
 extends Node
 var peer = NetworkedMultiplayerENet.new()
-onready var SERVER_IP = "1"
-onready var SERVER_PORT = 6969
-onready var MAX_PLAYERS = 3
+onready var SERVER_IP = "127.0.0.1"
+onready var SERVER_PORT = 1909
+onready var MAX_PLAYERS = 8
+
 
 func create_server(SERVER_PORT):
 	
