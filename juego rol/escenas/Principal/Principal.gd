@@ -1,15 +1,21 @@
 extends Spatial
 
-
 onready var escenaMenuPrincipal = preload("res://menus/MenuPrincipal/Menuprincipal.tscn")
+#onready var Chat = get_tree().get_root().get_node("Chat")
+#onready var TextEditChat = get_node("Chat/TextEditChat")
 
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	var node = escenaMenuPrincipal.instance()	
+	PonerEscena(escenaMenuPrincipal)
+	
+# Para poner escenas
+func PonerEscena(escena):
+	var node = escena.instance()
 	add_child(node)
+	
+# Para quitar escenas
+func QuitarEscena(escena):
+	get_tree().get_root().get_node(escena).queue_free()
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+# dejo anotado abajo en cada script la funcion de quitar de esta escena
+#QuitarEscena("Principal/Menuprincipal")

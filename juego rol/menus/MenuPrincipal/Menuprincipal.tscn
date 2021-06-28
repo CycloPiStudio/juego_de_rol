@@ -2,7 +2,7 @@
 
 [ext_resource path="res://menus/letras/titulo.tscn" type="PackedScene" id=1]
 [ext_resource path="res://menus/MenuPrincipal/Menuprincipal.gd" type="Script" id=2]
-[ext_resource path="res://menus/imagenes/portada1.jpg" type="Texture" id=3]
+[ext_resource path="res://menus/MenuPrincipal/imagenes/portada1.jpg" type="Texture" id=3]
 
 [node name="Menuprincipal" type="Control"]
 script = ExtResource( 2 )
@@ -120,6 +120,45 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="ColorRect6" type="ColorRect" parent="."]
+margin_left = 38.0
+margin_top = 209.0
+margin_right = 280.0
+margin_bottom = 239.0
+color = Color( 0.639216, 0.176471, 0.176471, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelPORT" type="Label" parent="ColorRect6"]
+margin_left = 7.0
+margin_top = 8.0
+margin_right = 232.0
+margin_bottom = 23.0
+text = "SERVER PORT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorInfo" type="ColorRect" parent="."]
+margin_left = 327.0
+margin_top = 526.0
+margin_right = 996.0
+margin_bottom = 566.0
+color = Color( 0.337255, 0.0705882, 0.333333, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Info" type="Label" parent="ColorInfo"]
+margin_left = 1.0
+margin_top = 5.0
+margin_right = 655.0
+margin_bottom = 36.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="ButtonCliente" type="Button" parent="."]
 margin_left = 34.0
 margin_top = 334.0
@@ -146,3 +185,5 @@ margin_top = -153.019
 margin_right = 119.814
 margin_bottom = -153.019
 rect_scale = Vector2( 0.901725, 0.901725 )
+[connection signal="pressed" from="ButtonCliente" to="." method="_on_ButtonCliente_pressed"]
+[connection signal="pressed" from="ButtonServidor" to="." method="_on_ButtonServidor_pressed"]
