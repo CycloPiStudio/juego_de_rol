@@ -9,6 +9,7 @@ Diagrama
 	
 Descripción del juego:
 
+# Multiplayer ![Godot 3.3](https://img.shields.io/badge/godot-v3.2-%23478cbf).
 	
 Realizado en Godot 3.3.
 
@@ -21,8 +22,11 @@ Subes nivel ganando combates y con cartas de premio.
 Intentar usar pantalla clickeable  para hacerlo Multiplataforma HMTL Friendly.
 
 	
-#### Planificación de nuevo contenido / Planning new content:
+
 - EMPEZAR PARTIDA:
   - 
   - Salen en las casillas de salida.
   - Se reparten 3 cartas aleatoriamente.
+
+- ### Turnos:
+- Orden de Turnos por entrada al servidor.
