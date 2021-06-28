@@ -21,10 +21,8 @@ Subes nivel ganando combates y con cartas de premio.
 Intentar usar pantalla clickeable  para hacerlo Multiplataforma HMTL Friendly.
 
 	
-### EMPEZAR PARTIDA:
-
-Salen en las casillas de salida
-
-Se reparten 3 cartas aleatoriamente. 
-
-
+#### Planificación de nuevo contenido / Planning new content:
+- EMPEZAR PARTIDA:
+  - 
+  - Salen en las casillas de salida.
+  - Se reparten 3 cartas aleatoriamente.
