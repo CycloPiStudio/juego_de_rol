@@ -3,6 +3,7 @@
 [ext_resource path="res://menus/letras/medievalcharacter.png" type="Texture" id=1]
 
 [node name="titulo" type="Control"]
+modulate = Color( 0.952941, 0.0823529, 0.0823529, 1 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 1.5874
@@ -11,95 +12,124 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="c2" type="Sprite" parent="."]
-modulate = Color( 0, 0, 0, 1 )
-position = Vector2( 262.379, 236.624 )
+[node name="carne" type="Control" parent="."]
+margin_left = -396.239
+margin_top = -154.682
+margin_right = -356.239
+margin_bottom = -114.682
+rect_scale = Vector2( 1.49578, 1.49578 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="c2" type="Sprite" parent="carne"]
+position = Vector2( 342.487, 167.305 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 229.586, 25.3251, 88.6427, 82.8109 )
 
-[node name="a" type="Sprite" parent="."]
-position = Vector2( 329.726, 231.573 )
+[node name="a" type="Sprite" parent="carne"]
+position = Vector2( 409.834, 162.254 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 6.81281, 27.6578, 88.6427, 85.1436 )
 
-[node name="r" type="Sprite" parent="."]
-position = Vector2( 403.809, 241.676 )
+[node name="r" type="Sprite" parent="carne"]
+position = Vector2( 483.917, 172.357 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 888.044, 143.523, 91.1451, 89.7847 )
 
-[node name="n" type="Sprite" parent="."]
-position = Vector2( 475.085, 238.308 )
+[node name="n" type="Sprite" parent="carne"]
+position = Vector2( 555.193, 168.989 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 450.618, 533.099, 89.6248, 82.2584 )
 
-[node name="e" type="Sprite" parent="."]
-position = Vector2( 541.31, 234.38 )
+[node name="e" type="Sprite" parent="carne"]
+position = Vector2( 621.418, 165.061 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 450.5, 414.4, 88.35, 76 )
 
-[node name="e3" type="Sprite" parent="."]
-position = Vector2( 694.939, 236.302 )
+[node name="de" type="Control" parent="."]
+margin_left = -752.219
+margin_top = -222.487
+margin_right = -712.219
+margin_bottom = -182.487
+rect_scale = Vector2( 1.86572, 1.86572 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="e3" type="Sprite" parent="de"]
+position = Vector2( 521.371, 264.637 )
 scale = Vector2( 0.722569, 0.722569 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 450.5, 414.4, 88.35, 76 )
 
-[node name="d" type="Sprite" parent="."]
-position = Vector2( 642.21, 234.7 )
+[node name="d" type="Sprite" parent="de"]
+position = Vector2( 468.642, 263.035 )
 scale = Vector2( 0.587117, 0.587117 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 342.65, 21.15, 86.45, 89.3 )
 
-[node name="p" type="Sprite" parent="."]
-position = Vector2( 268.07, 343.33 )
+[node name="pescuezo" type="Control" parent="."]
+margin_left = -347.504
+margin_top = -133.492
+margin_right = -307.504
+margin_bottom = -93.4924
+rect_scale = Vector2( 1.68834, 1.68834 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="p" type="Sprite" parent="pescuezo"]
+position = Vector2( 257.259, 357.073 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 676.057, 143.437, 78.5752, 82.2584 )
 
-[node name="e5" type="Sprite" parent="."]
-position = Vector2( 336.814, 341.86 )
+[node name="e5" type="Sprite" parent="pescuezo"]
+position = Vector2( 326.003, 355.603 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 450.5, 414.4, 88.35, 76 )
 
-[node name="s" type="Sprite" parent="."]
-position = Vector2( 405.814, 343.86 )
+[node name="s" type="Sprite" parent="pescuezo"]
+position = Vector2( 395.003, 357.603 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 13.7704, 262.907, 86.3388, 88.4973 )
 
-[node name="c" type="Sprite" parent="."]
-position = Vector2( 477.378, 343.238 )
+[node name="c" type="Sprite" parent="pescuezo"]
+position = Vector2( 466.566, 356.981 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 229.586, 25.3251, 88.6427, 82.8109 )
 
-[node name="u" type="Sprite" parent="."]
-position = Vector2( 559.496, 343.238 )
+[node name="u" type="Sprite" parent="pescuezo"]
+position = Vector2( 548.685, 356.981 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 232.905, 266.333, 85.9184, 85.9184 )
 
-[node name="e6" type="Sprite" parent="."]
-position = Vector2( 636.475, 344.107 )
+[node name="e6" type="Sprite" parent="pescuezo"]
+position = Vector2( 625.664, 357.85 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 450.5, 414.4, 88.35, 76 )
 
-[node name="z" type="Sprite" parent="."]
-position = Vector2( 705.397, 344.857 )
+[node name="z" type="Sprite" parent="pescuezo"]
+position = Vector2( 694.586, 358.6 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 787.238, 655.565, 79.7784, 75.3463 )
 
-[node name="o" type="Sprite" parent="."]
-position = Vector2( 773.57, 345.606 )
+[node name="o" type="Sprite" parent="pescuezo"]
+position = Vector2( 762.758, 359.349 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 562.526, 533.73, 82.9828, 74.8206 )

@@ -16,12 +16,16 @@ _global_script_class_icons={
 [application]
 
 config/name="juego rol"
-run/main_scene="res://escenas/Principal/Principal.tscn"
+run/main_scene="res://Juego/Principal/Principal.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
 GlobalServer="*res://globales/GlobalServer.gd"
+
+[debug]
+
+gdscript/warnings/return_value_discarded=false
 
 [rendering]
 

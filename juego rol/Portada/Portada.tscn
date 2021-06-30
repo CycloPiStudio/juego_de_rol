@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://menus/letras/titulo.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Portada/imagenes/portada1.jpg" type="Texture" id=2]
+
+[node name="Portada" type="Control"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect4" type="ColorRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_scale = Vector2( 25.6, 14.9682 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PortadaSprite" type="Sprite" parent="."]
+position = Vector2( 556.7, 314.236 )
+scale = Vector2( 0.7, 0.7 )
+texture = ExtResource( 2 )
+flip_h = true
+
+[node name="titulo" parent="." instance=ExtResource( 1 )]
